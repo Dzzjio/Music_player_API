@@ -1,0 +1,25 @@
+body {
+   background: linear-gradient(to right, rgb(13, 10, 58) 9%, rgb(198, 189, 204) 86%);
+}
+
+.input,
+.input:focus {
+   background-color: #212529;
+   border: 1px solid #212529;
+   width: 100%;
+   color: white;
+   transition: all .15s;
+}
+
+.input:hover {
+   background-color: #424649;
+   border: 1px solid #424649;
+}
+
+.input::placeholder {
+   color: white;
+}
+
+.test {
+   width: 100%;
+}
